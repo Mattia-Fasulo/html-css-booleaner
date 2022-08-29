@@ -58,3 +58,21 @@ figcaption{
     margin-left: -25px;
 }
 
+.table{
+    margin-top: 60px;
+}
+
+th,td{
+    width: 30%;
+    text-align: left;
+}
+
+th{
+    background-color:rgb(44, 110, 110);
+    color: antiquewhite;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
