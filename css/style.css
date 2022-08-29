@@ -84,3 +84,22 @@ tr:nth-child(even) {
     margin-top: 60px;
 }
 
+footer p{
+    color: gray;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+.img-footer{
+    display: block;
+    margin-top: 0px;
+}
+
+.text-img{
+    position: relative;
+    color: aliceblue;
+    top: -200px;
+    font-size: 35px;
+}
