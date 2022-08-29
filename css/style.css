@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 #header {
   margin-top: -10px;
   margin-left: -10px;
@@ -33,11 +34,19 @@ div > p{
   font-size: 20px;
 }
 
+.tim{
+    margin-left: -40px;
+}
+
 p > span {
   color: rgb(6, 178, 178);
 }
 
 #data{
     margin-top: -20px;
+}
+
+figcaption{
+    margin-left: -40px;
 }
 
