@@ -1,20 +1,43 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-#header{
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    height: 210px;
-    background: url(../img/pattern.png);
-    background-color: aqua;
-} 
-
-
-#logo{
-    height: 30%;
-    width: 30%;
-    position: relative;
-    top: 130px; 
-    left: -100px;
+#header {
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 210px;
+  background: url(../img/pattern.png);
+  background-color: aqua;
 }
+
+#logo {
+  height: 30%;
+  width: 30%;
+  position: relative;
+  top: 130px;
+  left: -100px;
+}
+
+#title h1 {
+  font-size: 60px;
+}
+
+#title > div {
+  margin-top: -50px;
+}
+div > p{
+    color: gray;
+}
+
+#author {
+  font-size: 20px;
+}
+
+p > span {
+  color: rgb(6, 178, 178);
+}
+
+#data{
+    margin-top: -20px;
+}
+
