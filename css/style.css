@@ -58,11 +58,16 @@ figcaption{
     margin-left: -25px;
 }
 
-.table{
+.section-table{
     margin-top: 60px;
+
 }
 
-th,td{
+table{
+    border-collapse:collapse;
+}
+
+th, td{
     width: 30%;
     text-align: left;
 }
