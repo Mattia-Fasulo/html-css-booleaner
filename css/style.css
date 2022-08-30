@@ -16,6 +16,7 @@ p {
 #header {
   height: 210px;
   background: url(../img/pattern.png);
+  background-size: contain;
   background-color: aqua;
   width: 100%;
 }
