@@ -46,7 +46,10 @@ p > span {
 
 .list {
   margin-top: 60px;
+  margin-left: 15px;
+  
 }
+
 
 .section-table {
   margin-top: 60px;
@@ -80,16 +83,18 @@ tr:nth-child(even) {
 }
 
 footer h2 {
+  margin-left: -120px;
   color: gray;
 }
 
-footer {
-  margin-top: 40px;
+footer.container {
+  margin-top: 80px;
 }
 
 .img-footer {
   display: block;
   margin-top: 0px;
+  margin-left: -120px;
 }
 
 .text-img {
@@ -97,6 +102,7 @@ footer {
   color: aliceblue;
   top: -200px;
   font-size: 35px;
+  margin-left: -120px;
 }
 
 #img {
