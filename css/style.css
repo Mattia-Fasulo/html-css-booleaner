@@ -1,17 +1,23 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-p{
-    font-size: 20px;
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
 }
 
 #header {
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
   height: 210px;
   background: url(../img/pattern.png);
   background-color: aqua;
+  width: 100%;
 }
 
 #logo {
@@ -19,92 +25,80 @@ p{
   width: 30%;
   position: relative;
   top: 130px;
-  left: -100px;
 }
 
 #title h1 {
   font-size: 60px;
 }
 
-#title > div {
-  margin-top: -50px;
-}
-div > p{
-    color: gray;
+div > p {
+  color: gray;
 }
 
-#author {
-  font-size: 20px;
-}
 
-.tim{
-    margin-left: -40px;
+.tim {
+  margin-left: -40px;
 }
 
 p > span {
   color: rgb(6, 178, 178);
 }
 
-#data{
-    margin-top: -20px;
+.list {
+  margin-top: 60px;
 }
 
-figcaption{
-    margin-left: -40px;
+.section-table {
+  margin-top: 60px;
 }
 
-.list{
-    margin-top: 60px;
-    margin-left: -25px;
+table {
+  border-collapse: collapse;
 }
 
-.section-table{
-    margin-top: 60px;
-
+th,
+td {
+  width: 30%;
+  text-align: left;
 }
 
-table{
-    border-collapse:collapse;
-}
-
-th, td{
-    width: 30%;
-    text-align: left;
-}
-
-th{
-    background-color:rgb(44, 110, 110);
-    color: antiquewhite;
+th {
+  background-color: rgb(44, 110, 110);
+  color: antiquewhite;
 }
 
 tr:nth-child(even) {
-    background-color: aqua;
+  background-color: aqua;
 }
 
-.underline{
-    background-color: yellow;
-    color: black;
+.underline {
+  background-color: yellow;
+  color: black;
 }
-#text2{
-    margin-top: 60px;
-}
-
-footer p{
-    color: gray;
+#text2 {
+  margin-top: 60px;
 }
 
-footer{
-    margin-top: 40px;
+footer h2 {
+  color: gray;
 }
 
-.img-footer{
-    display: block;
-    margin-top: 0px;
+footer {
+  margin-top: 40px;
 }
 
-.text-img{
-    position: relative;
-    color: aliceblue;
-    top: -200px;
-    font-size: 35px;
+.img-footer {
+  display: block;
+  margin-top: 0px;
+}
+
+.text-img {
+  position: relative;
+  color: aliceblue;
+  top: -200px;
+  font-size: 35px;
+}
+
+#img {
+  margin-inline-start: 40px;
 }
