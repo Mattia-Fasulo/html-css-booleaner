@@ -25,7 +25,7 @@ p {
   height: 30%;
   width: 30%;
   position: relative;
-  top: 130px;
+  top: 40px;
 }
 
 #title h1 {
@@ -35,7 +35,6 @@ p {
 div > p {
   color: gray;
 }
-
 
 .tim {
   margin-left: -40px;
@@ -48,9 +47,7 @@ p > span {
 .list {
   margin-top: 60px;
   margin-left: 15px;
-  
 }
-
 
 .section-table {
   margin-top: 60px;
